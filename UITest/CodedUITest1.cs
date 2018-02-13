@@ -16,12 +16,8 @@ namespace UITest
     /// Summary description for CodedUITest1
     /// </summary>
     [CodedUITest]
-    public class CodedUITest1
+    public class CodedUITest1 : UITestClassBase
     {
-        public CodedUITest1()
-        {
-        }
-
         [TestMethod]
         public void CodedUITestMethod1()
         {

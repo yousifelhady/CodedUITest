@@ -53,7 +53,9 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoLoader.cs" />
     <Compile Include="CodedUITest1.cs" />
+    <Compile Include="DirectoryHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UIMap.cs">
       <DependentUpon>UIMap.uitest</DependentUpon>
@@ -61,6 +63,7 @@
     <Compile Include="UIMap.Designer.cs">
       <DependentUpon>UIMap.uitest</DependentUpon>
     </Compile>
+    <Compile Include="UITestClassBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="UIMap.uitest" />
